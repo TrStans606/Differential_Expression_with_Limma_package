@@ -1,0 +1,15 @@
+Package: classIUPUI
+Title: Differential Expression Pipeline from GEO Data Objects
+Version: 0.0.0.9000
+Authors@R: 
+    person("Treyden", "Stansfield", , "trstans@iu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This is a differential gene expression anayalsis pipeline. Where the user inputs the GEO_ID for the gene expression GSE object they want. This object can then be further anaylyzed with additional fuctions.
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
